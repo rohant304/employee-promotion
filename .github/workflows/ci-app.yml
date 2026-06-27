@@ -40,5 +40,5 @@ jobs:
               python -c "import app; print('app imported successfully')"
          - name: Run Tests
            run: |
-             pytest
+             python -m pytest tests 
 
